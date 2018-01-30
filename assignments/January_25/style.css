@@ -21,11 +21,16 @@ ul {
 }
 body {
   background-color: silver;
+
 }
 ol {
   font-family: Times;
   font-size: 14pt;
 }
+h1 {
+  font-style: italic;
+  color: green;
+}
 li {
-  font-style: bold;
+  font-style: italic;
 }
