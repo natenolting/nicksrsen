@@ -31,7 +31,7 @@ h1 {
   font-style: italic;
   color: green;
 }
-li {
+li.one {
   font-style: italic;
 }
 img.profile {
