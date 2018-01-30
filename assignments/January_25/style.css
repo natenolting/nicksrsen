@@ -22,3 +22,10 @@ ul {
 body {
   background-color: silver;
 }
+ol {
+  font-family: Times;
+  font-size: 14pt;
+}
+li {
+  font-style: bold;
+}
