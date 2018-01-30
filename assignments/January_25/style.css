@@ -34,3 +34,7 @@ h1 {
 li {
   font-style: italic;
 }
+img.profile {
+  width: 120px;
+  height: 200px;
+}
