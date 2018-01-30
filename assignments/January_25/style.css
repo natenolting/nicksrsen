@@ -1,13 +1,27 @@
 p {
   font-family: Times;
+  font-size: 15pt;
 }
 img.facebook {
+  width: 25px;
+  height: 23px;
+  float: left;
+  margin-right: 6px;
+}
+img.gmail {
   width: 20px;
   height: 20px;
   float: left;
+  margin-right: 12px;
+
 }
-img.gmail {
-  width: 15px;
-  height: 15px;
-  float: left;
+ul {
+  font-family: Times;
+  font-size: 14pt;
+}
+body {
+  background-color: silver;
+}
+p.one {
+  font-style: italic;
 }
