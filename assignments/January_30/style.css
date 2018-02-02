@@ -2,7 +2,11 @@ div {
   text-align: center;
   margin: 10px;
 }
-body {
-  border: 1px solid black;
-  margin: 20px;
+div.one {
+  text-align: center;
+  margin-right: 66px;
+}
+div.two {
+  text-align: center;
+  margin-right: 38px;
 }
