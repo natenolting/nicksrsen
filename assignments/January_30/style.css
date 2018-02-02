@@ -1,6 +1,8 @@
-p {
+div {
   text-align: center;
+  margin: 10px;
 }
-p.one {
-  float: middle;
+body {
+  border: 1px solid black;
+  margin: 20px;
 }
