@@ -1,7 +1,7 @@
 <?php
-  // Set start of the sessions before any output is sent
+
   session_start();
-  // Set all the post keys to session keys
+
   foreach ($_POST as $key => $value) {
       $_SESSION[$key] = $value;
   }

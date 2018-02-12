@@ -1,5 +1,4 @@
 <?php
-  // set start of the sessions before any output is sent
   session_start();
 ?>
 <!DOCTYPE html>
