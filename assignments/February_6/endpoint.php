@@ -19,7 +19,7 @@
   </head>
   <body>
     <div class="container">
-      <p>Hi <?php echo $_POST['name'] ?>, thanks for the comment. Here's what you sent:</p>
+      <p>Hey <?php echo $_POST['name'] ?>, thank you for letting us know what you think. Please review what you said:</p>
       <table>
       <thead>
       <tr>
@@ -37,7 +37,7 @@
               }
           ?>
 </tbody>
-      </table>
+  </table>
     </div>
   </body>
 </html>
