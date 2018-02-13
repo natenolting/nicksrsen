@@ -36,12 +36,13 @@
   </div>
   <div class="one">
     <label for="phone number">Phone Number:</label>
-      <input type="phone number" id="phone number" name="phone number" required="required"/>
+      <input type="phone number" id="phone number" name="phone number" value="<?php echo (isset($_SESSION['phone number']) ? $_SESSION['phone number'] : null); ?>"
+      "required="required"/>
   </div>
   <div class="two">
     <label for="comments">Comments:</label>
 
-      <textarea id="comment" name="comment" rows="5" columns="20" <?php echo (isset($_SESSION['message']) ? $_SESSION['message'] : null); ?>
+      <textarea id="comment" name="comment" rows="5" columns="20" <?php echo (isset($_SESSION['comments']) ? $_SESSION['comments'] : null); ?>
       required="required">Let me know what you think</textarea>
   </div>
   <div>
