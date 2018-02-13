@@ -1,3 +1,4 @@
+
 <?php
   session_start();
 ?>
@@ -41,7 +42,6 @@
   </div>
   <div class="two">
     <label for="comments">Comments:</label>
-
       <textarea id="comment" name="comment" rows="5" columns="20" <?php echo (isset($_SESSION['comments']) ? $_SESSION['comments'] : null); ?>
       required="required">Let me know what you think</textarea>
   </div>
@@ -49,6 +49,5 @@
       <input type="submit" value="Submit"/>
 </fieldset>
     </form>
-
 </body>
 </html>

@@ -1,7 +1,5 @@
 <?php
-
   session_start();
-
   foreach ($_POST as $key => $value) {
       $_SESSION[$key] = $value;
   }
@@ -19,7 +17,8 @@
   </head>
   <body>
     <div class="container">
-      <p>Hey <?php echo $_POST['name'] ?>, thank you for letting us know what you think. Please review what you said:</p>
+      <p>Hey <?php echo $_POST['name'] ?>,
+        thank you for letting us know what you think. Please review what you said:</p>
       <table>
       <thead>
       <tr>
@@ -37,12 +36,11 @@
               }
           ?>
 </tbody>
-  </table>
+      </table>
     </div>
   </body>
 </html>
 <?php
-
   foreach (array_keys($_POST) as $key) {
     if(isset($_SESSION[$key])) {
       unset($_SESSION[$key]);
