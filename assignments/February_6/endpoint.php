@@ -1,5 +1,7 @@
 <?php
   session_start();
+  var_dump($_POST);
+  die();
   foreach ($_POST as $key => $value) {
       $_SESSION[$key] = $value;
   }
