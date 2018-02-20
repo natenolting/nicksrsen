@@ -1,3 +1,15 @@
 .one{
   text-align: center;
 }
+div {
+  text-align: center;
+  margin: 10px;
+}
+div.one {
+  text-align: center;
+  margin-right: 66px;
+}
+div.two {
+  text-align: center;
+  margin-right: 27px;
+}
