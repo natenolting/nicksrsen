@@ -16,9 +16,9 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
   <body>
-      <div class="masthead"><?php include 'modules/masthead.php'; ?></div>
-      <div class="navigation"><?php include 'modules/navigation.php'; ?></div>
-      <div class="content"><?php include 'pages/'. $content . '.php'; ?></div>
-      <div class="footer"><?php include 'modules/footer.php'; ?></div>
+      <div>Home</div>
+      <div>Content</div>
+      <div>About Us</div>
+      <div>Contact</div>
   </body>
 </html>
