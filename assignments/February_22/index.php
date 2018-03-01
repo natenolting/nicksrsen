@@ -10,24 +10,24 @@ $body .=
 ?>
 <h2>Submit a payment</h2>
 <form action="endpoint.php" method="post">
-    <div class="form-row">
-        <div class="col-auto">
-            <div class="form-group">
-                <label for="payment_amount"></label>
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                    <span class="input-group-text">
-                       <i class="fas fa-dollar-sign"></i>
-                    </span>
-                    </div>
-                    <input id="payment_amount"
-                           name="payment_amount"
-                           type="text"
-                           class="form-control"
-                           placeholder="Payment Amount">
-                </div>
-            </div>
-        </div>
+  <div class="form-row">
+    <div class="col-auto">
+      <div class="form-group">
+      <label for="payment_amount"></label>
+        <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text">
+              <i class="fas fa-dollar-sign"></i>
+            </span>
+  </div>
+      <input id="payment_amount"
+          name="payment_amount"
+          type="text"
+          class="form-control"
+          placeholder="Payment Amount">
+      </div>
+      </div>
+      </div>
     </div>
     <div class="form-row">
         <div class="col-auto">
@@ -99,3 +99,4 @@ $body .=
 </form>
 ';
 include __DIR__ . '/view.php';
+?>
