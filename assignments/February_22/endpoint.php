@@ -26,16 +26,16 @@ $response = $controller->executeWithApiResponse(\net\authorize\api\constants\ANe
 $body = null;
 if ($response != null)
 {
-    $tresponse = $response->getTransactionResponse();
-    if (($tresponse != null) && ($tresponse->getResponseCode()=="1"))
+$tresponse = $response->getTransactionResponse();
+if (($tresponse != null) && ($tresponse->getResponseCode()=="1"))
     {
         $body .= "Charge Credit Card AUTH CODE : " . $tresponse->getAuthCode() . "\n";
         $body .= "Charge Credit Card TRANS ID  : " . $tresponse->getTransId() . "\n";
     }
     else
     {
-        $body .= "Charge Credit Card ERROR :  Invalid response, error code ". $tresponse->getResponseCode() ."\n";
-        $_SESSION['error'] = $body;
+$body .= "Charge Credit Card ERROR :  Invalid response, error code ". $tresponse->getResponseCode() ."\n";
+$_SESSION['error'] = $body;
         header( 'Location:index.php');
         exit();
     }
@@ -46,3 +46,4 @@ else
 }
 $title = substr(__FILE__, strlen(__DIR__ . DIRECTORY_SEPARATOR), strlen(__FILE__));
 include __DIR__ . '/view.php';
+?>
