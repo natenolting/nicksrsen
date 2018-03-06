@@ -8,6 +8,6 @@
       <title><?php echo $title; ?></title>
     </head>
 <body>
-  thoadf\
+  
 </body>
-</html>  
+</html>

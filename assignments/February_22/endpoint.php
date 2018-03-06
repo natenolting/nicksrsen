@@ -6,8 +6,8 @@ use net\authorize\api\controller as AnetController;
 define("AUTHORIZENET_LOG_FILE","phplog");
 
 $merchantAuthentication = new AnetAPI\MerchantAuthenticationType();
-  $merchantAuthentication->setName("2HL5yPv66xM");
-  $merchantAuthentication->setTransactionKey("4G557fY8raKM77nj");
+  $merchantAuthentication->setName($AUTHORIZE_NET_API_LOGIN_ID);
+  $merchantAuthentication->setTransactionKey($AUTHORIZE_NET_TRANSACTION_KEY);
   $refId = 'ref' . time();
 
   $creditCard = new AnetAPI\CreditCardType();
